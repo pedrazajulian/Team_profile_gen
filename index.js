@@ -234,7 +234,7 @@ function internCard() {
 
 function writeHTML() {
   fs.writeFile("index.html", render.generateHTML(team), (err) => {
-    err ? console.log(err) : console.log("index.html generated");
+    err ? console.log(err) : console.log("Your Team is Ready");
   });
   console.log(team);
 }
