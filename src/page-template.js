@@ -5,18 +5,18 @@ const Manager = require("../lib/Manager");
 
 
 //Create Engineer Card
-const generateEngineer = function(engineer) {
+const generateEngineer = function(Engineer) {
     return `
     <div class="col-4 mt-4">
         <div class="card h-100">
             <div class="card-header bg-info">
                 <h2>Engineer</h2>
-                <h3>${engineer.getName()}</h3>
+                <h3>${Engineer.getName()}</h3>
             </div>
             <div class="card-body">
-                <p class="id">ID: ${engineer.getId()}</p>
-                <p class="email">Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></p>
-                <p class="github">Github: <a href="https://github.com/${engineer.getGithub()}">${engineer.getGithub()}</a></p>
+                <p class="id">ID: ${Engineer.getId()}</p>
+                <p class="email">Email: <a href="mailto:${Engineer.getEmail()}">${Engineer.getEmail()}</a></p>
+                <p class="github">Github: <a href="https://github.com/${Engineer.getGithub()}">${Engineer.getGithub()}</a></p>
             </div>
         </div>
     </div>
@@ -54,7 +54,7 @@ const generateManager = function (manager) {
             <div class="card-body">
                 <p class="id">ID: ${manager.getId()}</p>
                 <p class="email">Email: <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></p>
-                <p class="officeNum">Office Number: ${manager.getOfficeNum()}</p>
+                <p class="officeNum">Office Number: ${manager.getOfficeNumber()}</p>
             </div>
         </div>
     </div>
