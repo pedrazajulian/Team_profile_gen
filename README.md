@@ -50,3 +50,5 @@
   Any questions? Contact pedrazajulian@hotmail.com. Access more of my work at [pedrazajulian](https://github.com/pedrazajulian/Team_profile_gen).
 
   ![demo](https://media.giphy.com/media/av4FTQT6sTgSAxmzan/giphy.gif)
+
+  [TEAM PROFILE LINK](https://pedrazajulian.github.io/Team_profile_gen/)
